@@ -1,5 +1,5 @@
 import FoodCard from "../components/FoodCard";
-import foodItems from "../data/foodItems";
+import foodItems from "../data/FoodItems";
 
 function Menu() {
     return (

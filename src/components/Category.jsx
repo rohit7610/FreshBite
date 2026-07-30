@@ -1,5 +1,5 @@
 import "../css/Categories.css";
-import categories from "../data/categories";
+import categories from "../data/Categories";
 
 function Categories() {
     return (
