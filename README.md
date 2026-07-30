@@ -1,16 +1,109 @@
-# React + Vite
+# 🍕 FreshBite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+FreshBite is a frontend-only food ordering web application built using **React** and **Vite**. The project provides a modern and responsive user interface where users can browse food items, view detailed product information, and manage their shopping cart.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- Responsive and modern user interface
+- Home page with featured food items
+- Restaurant listing page
+- Menu page displaying available food items
+- Dynamic Product Detail page using React Router
+- Shopping Cart functionality
+- Increase and decrease item quantity
+- Automatic total price calculation
+- About page
+- Contact page
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- Vite
+- React Router DOM
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+
+---
+
+## 📁 Project Structure
+
+```text
+FreshBite/
+│
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── css/
+│   ├── assets/
+│   └── data/
+│
+├── public/
+├── package.json
+└── README.md
+```
+
+---
+
+## 🚀 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/rohit7610/FreshBite.git
+```
+
+Move into the project folder:
+
+```bash
+cd FreshBite
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## 🌐 Live Demo
+
+**Vercel Deployment:**  
+(Paste your Vercel URL here)
+
+---
+
+## 📂 GitHub Repository
+
+https://github.com/rohit7610/FreshBite
+
+---
+
+## 👨‍💻 Developer
+
+**Rohit Bisht**
+
+B.Tech Computer Science Engineering  
+Graphic Era Hill University, Dehradun
+
+---
+
+## 📌 Future Improvements
+
+- User Authentication
+- Search Functionality
+- Food Categories Filter
+- Checkout Page
+- Order History
+- Payment Gateway Integration

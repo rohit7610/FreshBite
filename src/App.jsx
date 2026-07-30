@@ -3,6 +3,8 @@ import { useState } from "react";
 
 import Navbar from "./components/Navbar";
 import ProductDetail from "./pages/ProductDetail";
+import Login from "./pages/Login";
+import Register from "./pages/Register";
 
 import Home from "./pages/Home";
 import Restaurant from "./pages/Restaurant";
@@ -78,6 +80,8 @@ function decreaseQuantity(id) {
       <Navbar />
 
       <Routes>
+        <Route path="/login" element={<Login />} />
+       <Route path="/register" element={<Register />} />
         <Route path="/" element={<Home />} />
         <Route path="/restaurants" element={<Restaurant />} />
         <Route path="/menu" element={<Menu />} />
