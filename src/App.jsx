@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import { useState } from "react";
 
-import Navbar from "./components/Navbar";
+import Navbar from "./components/TempNavbar";
 import ProductDetail from "./pages/ProductDetail";
 
 import Home from "./pages/Home";
